@@ -1,0 +1,12 @@
+C:\Users\Nice\Downloads\equipshare>cf push equipshare-rajat-green  -b 
+https://github.com/cloudfoundry/staticfile-buildpack.git -i 1 -m 126MB
+
+---
+applications:
+- name: equipshare-rajat
+  memory: 128M
+  instances: 1
+  path: .
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: equipshare-rajat
+  domain: cfapps.io
