@@ -1,0 +1,21 @@
+git status
+
+git add .
+
+git commit -m "message"
+
+git push origin develop
+
+For Stash:
+
+	- git stats list
+	
+	- git stash drop
+
+	-git stash
+
+Pull the code now
+
+	-git stash apply
+
+it will merge code if there are no conflicts
